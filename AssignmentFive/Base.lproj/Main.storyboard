@@ -18,6 +18,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hello world" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IbH-gQ-Emh">
                                 <rect key="frame" x="165.5" y="437.5" width="83" height="21"/>
+                                <color key="backgroundColor" name="UIlabel"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -37,6 +38,9 @@
         </scene>
     </scenes>
     <resources>
+        <namedColor name="UIlabel">
+            <color red="0.20161159336566925" green="0.87450385093688965" blue="0.82629787921905518" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="background">
             <color red="1" green="0.56654930114746094" blue="0.392039954662323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
